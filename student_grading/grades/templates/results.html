@@ -1,6 +1,9 @@
 <h2>Results</h2>
-<u>
+<ul>
   {% for r in results %}
   <li>{{r.subject}}-{{r.marks}} ({{r.grade}})</li>
   {% endfor %}
-</u>
+    <a href="{% url 'export' %}" class="btn btn-success">
+    Download Excel
+</a>
+</ul>
