@@ -24,7 +24,8 @@ This project was developed for learning and academic purposes.
 - 75 – 100 : A
 - 60 – 74  : B
 - 50 – 59  : C
-- Below 50 : F
+- 40 – 49  : D
+- Below 40 : F
 
 ## How to Run the Project
 1. Clone the repository
